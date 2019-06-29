@@ -129,7 +129,7 @@ export function createApp(
               })
             }
             pnd={pnd}
-            maxEntriesPerList={100}
+            maxEntriesPerList={10000}
           />
         );
       }
