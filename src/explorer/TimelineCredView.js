@@ -13,8 +13,8 @@ export type Props = {|
   +selectedNodeFilter: NodeAddressT,
 |};
 
-const MAX_ENTRIES_PER_LIST = 100;
-const DEFAULT_ENTRIES_PER_CHART = 6;
+const MAX_ENTRIES_PER_LIST = 5000;
+const DEFAULT_ENTRIES_PER_CHART = 20;
 
 /**
  * Render a view on TimelineCred.
